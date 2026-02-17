@@ -35,4 +35,4 @@ I build distributed systems that solve real-world problems, from logistics in th
 
 ---
 
-[Linkedin](https://linkedin.com/in/your-linkedin-handle) • [Email](mailto:your-email@example.com)
+[Linkedin](https://linkedin.com/in/your-linkedin-handle) • [Email](mailto:s3dwn@outlook.com)
