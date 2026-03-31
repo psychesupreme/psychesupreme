@@ -79,8 +79,8 @@ Databases & DevOps
 📊 GitHub Activity
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github.readme-stats.vercel.app/api%3Fusername%3Dpsychesupreme%26show_icons%3Dtrue%26theme%3Dmidnight-purple%26hide_border%3Dtrue" alt="psychesupreme's GitHub stats" width="48%" />
-<img src="https://www.google.com/search?q=https://github.readme-stats.vercel.app/api/top-langs/%3Fusername%3Dpsychesupreme%26layout%3Dcompact%26theme%3Dmidnight-purple%26hide_border%3Dtrue" alt="Top Languages" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api?username=psychesupreme&show_icons=true&theme=midnight-purple&hide_border=true" alt="psychesupreme's GitHub stats" width="48%" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=psychesupreme&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages" width="48%" />
 </div>
 
 <div align="center">
