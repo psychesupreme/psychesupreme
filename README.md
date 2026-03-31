@@ -79,9 +79,14 @@ Databases & DevOps
 📊 GitHub Activity
 
 <div align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=psychesupreme&show_icons=true&theme=midnight-purple&hide_border=true" alt="psychesupreme's GitHub stats" width="48%" />
+<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dpsychesupreme%26show_icons%3Dtrue%26theme%3Dmidnight-purple%26hide_border%3Dtrue%26count_private%3Dtrue" alt="psychesupreme's GitHub stats" width="48%" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=psychesupreme&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages" width="48%" />
+<br />
+<br />
+<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dpsychesupreme%26theme%3Dmidnight-purple%26hide_border%3Dtrue" alt="GitHub Streak" width="96%" />
 </div>
+
+<br />
 
 <div align="center">
 <a href="mailto:s3dwn@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
