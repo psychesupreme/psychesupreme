@@ -1,94 +1,141 @@
 <div align="center">
-<h1>Hi there, I'm Psyche Supreme! 👋</h1>
-<p><b>Full Stack Developer | AgTech Enthusiast | Quant Finance Explorer</b></p>
-<p><i>Based in Kenya 🇰🇪</i></p>
+  <h1>Hi there, I'm Psyche Supreme! 👋</h1>
+  <p><b>Full Stack Engineer | Distributed Systems & Multi-Tenant SaaS | Quant Trading</b></p>
+  <p><i>Based in Kenya 🇰🇪</i></p>
 </div>
 
-👨‍💻 About Me
+---
 
-I am a Computer Science student and a driven Software Engineer specializing in architecting secure, scalable, and data-driven applications. My passion lies in solving complex, real-world problems by bridging the gap between innovative technologies and practical business needs.
+### 👨‍💻 About Me
 
-Core Competencies & Focus Areas:
+I am a Computer Science student and Software Engineer specializing in architecting secure, scalable, and data-driven systems. My focus ranges from building high-reliability enterprise platforms and multi-tenant SaaS ecosystems to developing algorithmic trading engines and localized FinTech/AgTech solutions.
 
-🌐 Full Stack Development: Building decoupled, 3-tier enterprise architectures and responsive Single Page Applications (SPAs) using modern frameworks like Angular, .NET Core, and Django.
+#### 🎯 Core Focus Areas:
+- 🌐 **Full-Stack & Multi-Tenant Architecture:** Engineering decoupled 3-tier enterprise applications and SaaS platforms with schema/database isolation (`stancl/tenancy`, ASP.NET Core, Laravel, Django).
+- 📱 **Mobile & Offline-First Engineering:** Building robust mobile applications with Flutter and Isar NoSQL, featuring background GPS isolation, reactive state, and Last-Write-Wins (LWW) synchronization queues.
+- 📈 **Quantitative Finance & Algorithmic Trading:** Developing automated market-making and scalping engines for MetaTrader 5 (MT5) with ICT market structure analysis, Markov regime gating, Kelly sizing, and XGBoost scoring models.
+- 🔗 **FinTech & Supply Chain Integrations:** Integrating mission-critical localized payment gateways (Safaricom M-Pesa / Daraja API STK Push) and statutory tax invoicing (KRA eTIMS QR code vectors).
+- 🗄️ **Advanced Database Engineering:** Designing strict normalized schemas (3NF, Exclusive Arc supertypes), spatial geographic modeling (PostgreSQL / PostGIS), WAL persistence, and ACID-compliant transaction controls.
 
-🔗 Distributed Systems & AgTech: Designing decentralized data management solutions to optimize supply chains, streamline logistics, and integrate localized payment gateways (e.g., M-Pesa).
+---
 
-📈 Quantitative Finance: Developing high-frequency trading engines, implementing financial algorithms, and evaluating market data using Dart and Flutter.
+### 🚀 Featured Projects
 
-🗄️ Advanced Database Management: Engineering robust, normalized (3NF) relational databases with MS SQL Server and PostgreSQL, enforcing strict ACID compliance, and ensuring transaction integrity.
+#### 🛰️ [OmniRoute v2](https://github.com/psychesupreme/omniverse)
+**Multi-Tenant Field Force Automation & Real-Time Telematics SaaS**
+* **Overview:** An enterprise multi-tenant field workforce platform connecting field agents with central dispatchers. Features background GPS tracking, offline-first synchronization, and real-time mapping.
+* **Key Highlights:** PostgreSQL schema isolation via `stancl/tenancy`, dynamic PostGIS geography types, background Flutter GPS service isolate (60s logging with mock-GPS countermeasures), Last-Write-Wins Isar DB sync queue, and real-time Leaflet.js live tracking powered by Laravel Reverb WebSockets.
+* **Tech Stack:** `Laravel 11` `Flutter` `PostgreSQL` `PostGIS` `Vue.js 3` `Inertia.js` `Laravel Reverb` `Isar` `Tailwind CSS`
 
-🤖 Prompt Engineering & AI: Exploring the frontiers of Large Language Models (LLMs) and prompt engineering to build intelligent, context-aware applications and optimize AI-driven workflows.
+---
 
-Whether I am optimizing a decentralized network, structuring an exclusive-arc database schema, or fine-tuning algorithmic trading strategies, I thrive on delivering clean, efficient, and impactful code.
+#### 📈 [TradeCore Quant (Kom v1.0)](https://github.com/psychesupreme/TradeCore_Quant)
+**Algorithmic Gold Trading & Quantitative Execution Engine**
+* **Overview:** A fully automated, quantitative scalping and swing trading engine purpose-built for XAUUSD (Gold), deployed live on MetaTrader 5.
+* **Key Highlights:** Dual-layer execution architecture (24h M1 momentum scalping probe + session-gated structural ICT strategies such as London/NY Judas, Silver Bullet, and Fair Value Gaps). Implements Kelly criterion position sizing, Markov regime detection, XGBoost scoring pipelines, and a 5-phase calibrated dynamic exit engine.
+* **Tech Stack:** `Python 3.11+` `MetaTrader 5 API` `FastAPI` `XGBoost` `SQLite (WAL)` `Telegram Bot API` `APScheduler`
 
-🚀 Featured Projects
+---
 
-🛒 Ecobid
+#### 🌸 [Noir & Bloom Atelier](https://github.com/psychesupreme/noir)
+**Luxury Floral ERP & Bespoke Curation Platform**
+* **Overview:** An enterprise ERP, inventory logistics, and curation platform tailored for Kenya's luxury floriculture market.
+* **Key Highlights:** Consolidated into 4 squashed domain baseline migrations, automated statutory KRA eTIMS QR code vector generation and PDF tax invoicing (DOMPDF), tagged storefront caching with event-driven invalidation (`StorefrontCacheService`), and Resend transactional email driver.
+* **Tech Stack:** `Laravel 11/12` `Livewire 3` `PostgreSQL` `Tailwind CSS` `KRA eTIMS` `Resend` `DOMPDF`
 
-A comprehensive e-commerce and auction platform built for localized markets.
+---
 
-Features: Real-time bidding, shopping cart bulk-checkout, automated M-Pesa (Daraja API) payments, and a dedicated driver logistics dashboard for delivery tracking.
+#### 🗳️ [Secure Multi-Election Voting System](https://github.com/psychesupreme/VotingSystemProject)
+**3-Tier Enterprise Multi-Demographic Voting Platform**
+* **Overview:** A high-integrity electronic voting platform designed for multi-tier elections across university and national demographics (staff, students, residents).
+* **Key Highlights:** Exclusive Arc (Supertype/Subtype) normalized 3NF database schema, ACID-compliant TCL transactions to mathematically eliminate double-voting, immutable audit logging, and a decoupled SPA with real-time leaderboards.
+* **Tech Stack:** `Angular` `C# ASP.NET Core` `Microsoft SQL Server` `TypeScript` `Tailwind CSS`
 
-Stack: Python, Django, Bootstrap, SQLite.
+---
 
-🌾 KAPEM (Kenya Agricultural Produce Exchange Market)
+#### 🛒 [Ecobid](https://github.com/psychesupreme/Ecobid)
+**Localized E-Commerce & Real-Time Auction Platform**
+* **Overview:** A full-stack localized marketplace supporting real-time auction bidding, direct purchases, and integrated driver logistics.
+* **Key Highlights:** Real-time auction bidding system, multi-item shopping cart with bulk-checkout, automated Safaricom M-Pesa (Daraja API STK Push) integration, and a dedicated delivery driver logistics portal.
+* **Tech Stack:** `Python` `Django` `M-Pesa Daraja API` `Bootstrap` `SQLite`
 
-A distributed database system streamlining agricultural logistics and market access.
+---
 
-Features: Decentralized data management for farmers and buyers to optimize the supply chain.
+#### 📦 [BARA Mobile Platform](https://github.com/psychesupreme/Bara)
+**Multi-Tenant Field Operations & Workforce Mobile Platform**
+* **Overview:** Multi-tenant operations suite bridging central administrative scheduling with distributed field teams.
+* **Key Highlights:** Isolated tenant environments (`stancl/tenancy`), cross-platform Flutter field client with local Isar database caching, geolocation tracking, and real-time WebSocket communications.
+* **Tech Stack:** `Laravel 11` `Flutter` `stancl/tenancy` `Isar NoSQL` `Docker` `WebSockets`
 
-Stack: Node.js, Docker, Distributed Systems.
+---
 
-📈 TradeCore Quant
+#### 🌾 [KAPEM](https://github.com/psychesupreme/kapem-distributed-system)
+**Kenya Agricultural Produce Exchange Market**
+* **Overview:** A distributed, cloud-native database management system (DDBMS) modernizing agricultural supply chain logistics.
+* **Key Highlights:** Decentralized data nodes for farmers and commercial buyers, multi-node database synchronization, and containerized deployment to optimize fair market access and reduce middleman overhead.
+* **Tech Stack:** `Node.js` `PostgreSQL` `Docker` `Distributed Systems`
 
-A quantitative finance engine for algorithmic trading and market analysis.
+---
 
-Features: Implementation of financial algorithms for market data evaluation and automated trading strategies.
+### 🛠️ Tech Stack & Tools
 
-Stack: Dart, Flutter, Financial Algorithms.
+#### Languages
+<p>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" alt="C#" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" alt="Dart" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
 
-🗳️ Secure Multi-Election Voting System
+#### Frameworks & Environments
+<p>
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" alt=".NET Core" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django" />
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" alt="Flutter" />
+  <img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+  <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vuedotjs&logoColor=white" alt="Vue.js" />
+  <img src="https://img.shields.io/badge/Livewire-4E56A6?style=for-the-badge&logo=livewire&logoColor=white" alt="Livewire" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+</p>
 
-A secure, 3-tier enterprise voting platform designed for distinct demographics (staff, students, and residents).
+#### Databases & Storage
+<p>
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/PostGIS-006400?style=for-the-badge&logo=postgis&logoColor=white" alt="PostGIS" />
+  <img src="https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" alt="MS SQL Server" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
 
-Features: Exclusive Arc (Supertype/Subtype) normalized 3NF database schema, ACID-compliant TCL transactions to mathematically prevent double-voting, and a decoupled SPA with real-time leaderboards.
+#### DevOps, Protocols & Integrations
+<p>
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
+  <img src="https://img.shields.io/badge/MetaTrader_5-2C3E50?style=for-the-badge&logoColor=white" alt="MetaTrader 5" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/M--Pesa_Daraja_API-00A651?style=for-the-badge&logoColor=white" alt="M-Pesa Daraja" />
+</p>
 
-Stack: Angular, C# ASP.NET Core, Microsoft SQL Server, Tailwind CSS.
+---
 
-🛠️ Tech Stack & Tools
-
-Languages & Frameworks
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
-<img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" />
-<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
-<img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
-<img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
-
-Databases & DevOps
-
-<img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
-<img src="https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white" />
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
-
-📊 GitHub Activity
+### 📊 GitHub Activity
 
 <div align="center">
-<img src="https://www.google.com/search?q=https://github-readme-stats.vercel.app/api%3Fusername%3Dpsychesupreme%26show_icons%3Dtrue%26theme%3Dmidnight-purple%26hide_border%3Dtrue%26count_private%3Dtrue" alt="psychesupreme's GitHub stats" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=psychesupreme&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages" width="48%" />
-<br />
-<br />
-<img src="https://www.google.com/search?q=https://github-readme-streak-stats.herokuapp.com/%3Fuser%3Dpsychesupreme%26theme%3Dmidnight-purple%26hide_border%3Dtrue" alt="GitHub Streak" width="96%" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=psychesupreme&show_icons=true&theme=midnight-purple&hide_border=true&count_private=true" alt="psychesupreme's GitHub stats" width="48%" />
+  <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=psychesupreme&layout=compact&theme=midnight-purple&hide_border=true" alt="Top Languages" width="48%" />
+  <br />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=psychesupreme&theme=midnight-purple&hide_border=true" alt="GitHub Streak" width="96%" />
 </div>
 
 <br />
 
+---
+
 <div align="center">
-<a href="mailto:s3dwn@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-<a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:s3dwn@outlook.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://linkedin.com/in/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 </div>
